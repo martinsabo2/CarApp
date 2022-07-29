@@ -1,4 +1,5 @@
 ﻿namespace CarApp.Domain;
+
 public class Edition
 {
     public int Id { get; set; }

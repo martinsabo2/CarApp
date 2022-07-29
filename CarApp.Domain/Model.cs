@@ -6,4 +6,5 @@ public class Model
     public string Make { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;
     public int Year { get; set; }
+    public ICollection<Edition> Editions { get; set; } = new List<Edition>();
 }
