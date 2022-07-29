@@ -9,6 +9,7 @@ public class CarContext : DbContext
     public DbSet<Driver> Drivers { get; set; }
     public DbSet<Model> Models { get; set; }
     public DbSet<Trip> Trips { get; set; }
+    public DbSet<Edition> Editions { get; set; }
 
     const string connectionString = 
         "Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=CarAppData";

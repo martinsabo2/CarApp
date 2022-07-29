@@ -14,4 +14,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CarApp.Data\CarApp.Data.csproj" />
+    <ProjectReference Include="..\CarApp.Domain\CarApp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

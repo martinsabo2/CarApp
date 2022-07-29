@@ -3,14 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.UI", "CarApp\CarApp.UI.csproj", "{0BEF83F8-AC99-4423-A7E5-574D9D7B39AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarApp.UI", "CarApp\CarApp.UI.csproj", "{0BEF83F8-AC99-4423-A7E5-574D9D7B39AF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22E9F0B3-A674-40EB-B94A-511B27013F4F} = {22E9F0B3-A674-40EB-B94A-511B27013F4F}
+		{77B0A280-10D3-478C-8637-8CC8AA83B09A} = {77B0A280-10D3-478C-8637-8CC8AA83B09A}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.Data", "CarApp.Data\CarApp.Data.csproj", "{77B0A280-10D3-478C-8637-8CC8AA83B09A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarApp.Data", "CarApp.Data\CarApp.Data.csproj", "{77B0A280-10D3-478C-8637-8CC8AA83B09A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{22E9F0B3-A674-40EB-B94A-511B27013F4F} = {22E9F0B3-A674-40EB-B94A-511B27013F4F}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.Domain", "CarApp.Domain\CarApp.Domain.csproj", "{22E9F0B3-A674-40EB-B94A-511B27013F4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarApp.Domain", "CarApp.Domain\CarApp.Domain.csproj", "{22E9F0B3-A674-40EB-B94A-511B27013F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
